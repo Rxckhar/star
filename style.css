@@ -1,0 +1,96 @@
+*{
+    background-color: black;
+    
+}
+
+.Star1 {
+    width: 1920px;
+    height: 1080px;
+    background: url("../free-png.ru-473-340x338.png");
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+    animation-name: Star1;
+}
+.Star2 {
+    margin-right: 10px;
+    width: 1920px;
+    height: 1080px;
+    background: url("../free-png.ru-473-340x338.png");
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+    animation-name: Star2;
+}
+.Star3 {
+    margin-right: 10px;
+    width: 1920px;
+    height: 1080px;
+    background: url("../free-png.ru-473-340x338.png");
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+    animation-name: Star3;
+}
+.Moon {
+    position: absolute;
+    width: 300px;
+    height: 220px;
+    background: url("../5804620e9cacb157d11f0932.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+    animation-name: Moon;
+    
+    animation-timing-function: linear;
+   
+}
+@keyframes Moon {
+    100%{
+        
+        transform: rotate(360deg);
+    }
+
+}
+@keyframes Star1 {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.3;
+    }
+    100%{
+        
+        opacity: 1 ;
+    }
+
+}
+@keyframes Star2 {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.2;
+    }
+    100%{
+        
+        opacity: 1 ;
+    }
+
+}
+@keyframes Star3 {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.4;
+    }
+    100%{
+        
+        opacity: 0.7 ;
+    }
+
+}
+
